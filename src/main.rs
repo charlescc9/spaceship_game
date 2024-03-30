@@ -1,8 +1,10 @@
+mod astroids;
 mod camera;
 mod debug;
 mod movement;
 mod spaceship;
 
+use astroids::AstroidPlugin;
 use bevy::prelude::*;
 use camera::CameraPlugin;
 use debug::DebugPlugin;
@@ -22,6 +24,7 @@ fn main() {
             SpaceshipPlugin,
             MovementPlugin,
             DebugPlugin,
+            AstroidPlugin
         ))
         .run();
 }
