@@ -1,4 +1,4 @@
-use crate::movement::{MovingObjectBundle, Velocity, Acceleration};
+use crate::movement::{Acceleration, MovingObjectBundle, Velocity};
 use bevy::prelude::*;
 
 const STARTING_TRANSLATION: Vec3 = Vec3::new(0.0, 0.0, -20.0);

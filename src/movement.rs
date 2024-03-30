@@ -23,12 +23,11 @@ impl Acceleration {
 }
 
 #[derive(Bundle)]
-pub struct MovingObjectBundle { 
+pub struct MovingObjectBundle {
     pub velocity: Velocity,
     pub acceleration: Acceleration,
     pub model: SceneBundle,
 }
-
 
 pub struct MovementPlugin;
 

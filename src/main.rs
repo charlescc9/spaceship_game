@@ -24,7 +24,7 @@ fn main() {
             SpaceshipPlugin,
             MovementPlugin,
             DebugPlugin,
-            AstroidPlugin
+            AstroidPlugin,
         ))
         .run();
 }
